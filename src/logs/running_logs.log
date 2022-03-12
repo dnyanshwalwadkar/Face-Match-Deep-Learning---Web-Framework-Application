@@ -1,0 +1,71 @@
+[2022-03-12 09:55:39,148: INFO: 01_generate_img_pkl]: >>>>> stage_01 started
+[2022-03-12 09:55:39,149: ERROR: 01_generate_img_pkl]: [Errno 2] No such file or directory: 'config/config.yaml'
+Traceback (most recent call last):
+  File "E:\AI-Projects-UDEMY\Which-Bollywood-Celebrity-You-look-like-main\src\01_generate_img_pkl.py", line 61, in <module>
+    generate_data_pickle_file(config_path = parsed_args.config, params_path= parsed_args.params)
+  File "E:\AI-Projects-UDEMY\Which-Bollywood-Celebrity-You-look-like-main\src\01_generate_img_pkl.py", line 23, in generate_data_pickle_file
+    config = read_yaml(config_path)
+  File "E:\AI-Projects-UDEMY\Which-Bollywood-Celebrity-You-look-like-main\src\utils\all_utils.py", line 8, in read_yaml
+    with open(path_to_yaml) as yaml_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'config/config.yaml'
+[2022-03-12 09:58:15,074: INFO: 01_generate_img_pkl]: >>>>> stage_01 started
+[2022-03-12 09:58:15,074: ERROR: 01_generate_img_pkl]: [Errno 2] No such file or directory: 'E:/AI-Projects-UDEMY/Which-Bollywood-Celebrity-You-look-like-main/config.yaml'
+Traceback (most recent call last):
+  File "E:\AI-Projects-UDEMY\Which-Bollywood-Celebrity-You-look-like-main\src\01_generate_img_pkl.py", line 61, in <module>
+    generate_data_pickle_file(config_path = parsed_args.config, params_path= parsed_args.params)
+  File "E:\AI-Projects-UDEMY\Which-Bollywood-Celebrity-You-look-like-main\src\01_generate_img_pkl.py", line 23, in generate_data_pickle_file
+    config = read_yaml(config_path)
+  File "E:\AI-Projects-UDEMY\Which-Bollywood-Celebrity-You-look-like-main\src\utils\all_utils.py", line 8, in read_yaml
+    with open(path_to_yaml) as yaml_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'E:/AI-Projects-UDEMY/Which-Bollywood-Celebrity-You-look-like-main/config.yaml'
+[2022-03-12 09:58:26,901: INFO: 01_generate_img_pkl]: >>>>> stage_01 started
+[2022-03-12 09:58:26,923: ERROR: 01_generate_img_pkl]: [Errno 2] No such file or directory: 'params.yaml'
+Traceback (most recent call last):
+  File "E:\AI-Projects-UDEMY\Which-Bollywood-Celebrity-You-look-like-main\src\01_generate_img_pkl.py", line 61, in <module>
+    generate_data_pickle_file(config_path = parsed_args.config, params_path= parsed_args.params)
+  File "E:\AI-Projects-UDEMY\Which-Bollywood-Celebrity-You-look-like-main\src\01_generate_img_pkl.py", line 24, in generate_data_pickle_file
+    params = read_yaml(params_path)
+  File "E:\AI-Projects-UDEMY\Which-Bollywood-Celebrity-You-look-like-main\src\utils\all_utils.py", line 8, in read_yaml
+    with open(path_to_yaml) as yaml_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'params.yaml'
+[2022-03-12 09:58:57,446: INFO: 01_generate_img_pkl]: >>>>> stage_01 started
+[2022-03-12 09:58:57,449: INFO: all_utils]: Directory is created at artifacts\pickle_format_data
+[2022-03-12 09:58:57,451: ERROR: 01_generate_img_pkl]: [WinError 3] The system cannot find the path specified: 'data'
+Traceback (most recent call last):
+  File "E:\AI-Projects-UDEMY\Which-Bollywood-Celebrity-You-look-like-main\src\01_generate_img_pkl.py", line 61, in <module>
+    generate_data_pickle_file(config_path = parsed_args.config, params_path= parsed_args.params)
+  File "E:\AI-Projects-UDEMY\Which-Bollywood-Celebrity-You-look-like-main\src\01_generate_img_pkl.py", line 40, in generate_data_pickle_file
+    actors = os.listdir(data_path)
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'data'
+[2022-03-12 09:59:45,153: INFO: 01_generate_img_pkl]: >>>>> stage_01 started
+[2022-03-12 09:59:45,156: INFO: all_utils]: Directory is created at artifacts\pickle_format_data
+[2022-03-12 09:59:45,156: ERROR: 01_generate_img_pkl]: [WinError 3] The system cannot find the path specified: 'data'
+Traceback (most recent call last):
+  File "E:\AI-Projects-UDEMY\Which-Bollywood-Celebrity-You-look-like-main\src\01_generate_img_pkl.py", line 62, in <module>
+    generate_data_pickle_file(config_path = parsed_args.config, params_path= parsed_args.params)
+  File "E:\AI-Projects-UDEMY\Which-Bollywood-Celebrity-You-look-like-main\src\01_generate_img_pkl.py", line 41, in generate_data_pickle_file
+    actors = os.listdir(data_path)
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'data'
+[2022-03-12 10:00:10,593: INFO: 01_generate_img_pkl]: >>>>> stage_01 started
+[2022-03-12 10:00:10,595: INFO: all_utils]: Directory is created at artifacts\pickle_format_data
+[2022-03-12 10:00:13,533: INFO: 01_generate_img_pkl]: Total actress are: 100
+[2022-03-12 10:00:13,534: INFO: 01_generate_img_pkl]: Total actress images: 8664
+[2022-03-12 10:00:13,541: INFO: 01_generate_img_pkl]: stage_01 completed!>>>>>
+[2022-03-12 10:03:29,671: INFO: 02_feature_extractor]: >>>>> stage_02 started
+[2022-03-12 10:03:29,749: ERROR: 02_feature_extractor]: [Errno 2] No such file or directory: 'config/config.yaml'
+Traceback (most recent call last):
+  File "E:\AI-Projects-UDEMY\Which-Bollywood-Celebrity-You-look-like-main\src\02_feature_extractor.py", line 86, in <module>
+    feature_extractor(config_path = parsed_args.config, params_path= parsed_args.params)
+  File "E:\AI-Projects-UDEMY\Which-Bollywood-Celebrity-You-look-like-main\src\02_feature_extractor.py", line 39, in feature_extractor
+    config = read_yaml(config_path)
+  File "E:\AI-Projects-UDEMY\Which-Bollywood-Celebrity-You-look-like-main\src\utils\all_utils.py", line 8, in read_yaml
+    with open(path_to_yaml) as yaml_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'config/config.yaml'
+[2022-03-12 10:05:13,745: INFO: 02_feature_extractor]: >>>>> stage_02 started
+[2022-03-12 10:05:17,388: INFO: all_utils]: Directory is created at artifacts\extracted_features
+[2022-03-12 10:25:37,383: INFO: 02_feature_extractor]: stage_02 completed!>>>>>
+[2022-03-12 10:33:26,625: INFO: 02_feature_extractor]: >>>>> stage_02 started
+[2022-03-12 10:33:29,716: INFO: all_utils]: Directory is created at artifacts\extracted_features
+[2022-03-12 11:07:43,489: INFO: 02_feature_extractor]: >>>>> stage_02 started
+[2022-03-12 11:07:45,953: INFO: all_utils]: Directory is created at artifacts\extracted_features
+[2022-03-12 11:27:51,308: INFO: 02_feature_extractor]: stage_02 completed!>>>>>
