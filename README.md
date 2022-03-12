@@ -93,9 +93,9 @@ yes!! Now you can start predicting 🙂
 
 # Authors:
 ```bash
-Author: Bappy Ahmed
+Author: Dnyanesh Walwadkar
 Data Scientist
-Email: entbappy73@gmail.com
+Email: dnyaneshwalwadkar10@gmail.com
 ```
 
 
