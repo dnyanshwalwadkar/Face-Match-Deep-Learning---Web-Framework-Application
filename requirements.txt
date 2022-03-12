@@ -5,9 +5,9 @@ keras-vggface
 keras_applications
 PyYAML
 tqdm
-scikit-learn~=1.0.2
+scikit-learn
 streamlit
 bing-image-downloader
 
-numpy~=1.22.3
-Pillow~=9.0.1
+numpy
+Pillow
